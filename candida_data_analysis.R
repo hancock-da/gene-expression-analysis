@@ -140,3 +140,6 @@ summary(express_mod2)
 
 plot(express_mod2)
 hist(resid(express_mod2))
+
+# linear regression model found HSP70 transcription positively correlated with Vg transcription 
+# but the effect was not significant (t = 1.58, p = 0.15)
