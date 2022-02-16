@@ -1,4 +1,3 @@
-setwd("/Users/DannyHome/Documents/Uni Work/Master's/Evolutionary Genomics")
 library(tidyverse)
 library(readxl)
 library(ggpubr)
@@ -48,8 +47,7 @@ p
 p + theme(legend.position = "none")
 
 # Although it does appear that heat shocked individuals that had previously been exposed to metal 
-# exposure did express lower levels of vitrellogenin, the difference in mean was not significant 
-# (under a Tukey post-hoc test).
+# exposure did express lower levels of vitrellogenin, the difference in means was not significant.
 
 # Now model differences in means of HsP expression across treatments
 
@@ -74,6 +72,10 @@ p2 <- ggboxplot(subset(candida, Target=="HsP"), x="Treatment", y="Expression",
 p2
 
 p2+theme(legend.position = "none")
+
+# Treatment groups 1 and 3 (that received heat shock) 
+# had significantly higher HSP70 expression than the control and treatment group 2 (both no heat 
+# shock) (all four p values < 0.01)
   
 # multifactorial anova to look for interactions between heat and metal
 
