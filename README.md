@@ -14,7 +14,7 @@ of Vitellogenin (Vg), a gene related to reproduction, and Heat Shock Protein 70 
 involved in protection of protein structure in Folsomia candida. These organisms belong to a 
 group who play a remarkable role in litter decomposition, collembolans and are used extensively as a model organism in soil biology.
 
-### Hypotheses and Research Questions:
+# Hypotheses and Research Questions:
 1. Vg expression
 > - Does cadmium exposure or heat shock have a significant effect on Vg transcription 
 levels?
@@ -26,10 +26,14 @@ than either stressor individually and the control group.
 3. Vg and HSP70 correlation
 > - Expression of Vg will reduce as HSP70 increases
 
-### Treatment groups:
+# Treatment groups:
 ![image](https://user-images.githubusercontent.com/40797637/154222627-4b12e42c-4592-4fe2-9332-327cefb4cc0d.png) *HH = heat hardening*
 
 **Regarding the candida_data.xlsx file:**
 
 **Gene expression levels of Vg and HSP70 are given in an arbitrary unit that is relative to the 
 reference gene, YWHAZ which does not change expression level across environments**
+
+# License
+
+This project is licensed under the MIT license - see LICENSE.txt file for more details.
